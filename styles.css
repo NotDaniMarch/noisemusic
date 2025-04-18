@@ -1,0 +1,56 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+header {
+    background-color: #ffedcb;
+    color: #ffa600;
+    padding: 2rem;
+    text-align: center;
+}
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #ffa600;
+}
+section {
+    margin-bottom: 2rem;
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.center-image img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    width: 600px;  /* Set the width of the images */
+    height: 600px; /* Set the height of the images */
+    object-fit: cover; /* Ensure the image fills the box without distortion */
+    display: block; /* Remove space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+  }
